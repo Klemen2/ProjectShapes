@@ -1,0 +1,10 @@
+{
+  "app": "Shapes",
+  "version": "0.1",
+  "languages="[
+    {
+    "name":"Slovenščina",
+    "iso3166":"si"
+    }
+  ]
+}
