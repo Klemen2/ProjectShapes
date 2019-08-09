@@ -1,7 +1,6 @@
 {
   "app": "Shapes",
   "version": "0.1",
-  "userpath": "",
   "data": [
     {
       "title": "Liki",
@@ -83,34 +82,5 @@
       "title": "zgodovina",
       "color": "#D9FFDB"
     }
-  ],
-  "exercises": [
-    {
-      "id": "1",
-      "text": "Izračunaj površino {type}."
-    },
-    {
-      "id": "2",
-      "text": "Izračunaj prostornino telesa."
-    },
-    {
-      "id": "3",
-      "text": "Izračunaj obseg {type}."
-    },
-    {
-      "id": "4",
-      "text": "Izračunaj stranico {side}."
-    },
-    {
-      "id": "5",
-      "text": "Izračunaj višino {type}."
-    }
-  ],
-  "knowndata": [
-    {
-      "id": "1",
-      "text": "Imamo {type} "
-    }
   ]
-
 }
