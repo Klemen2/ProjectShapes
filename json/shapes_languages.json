@@ -1,10 +1,13 @@
 {
   "app": "Shapes",
-  "version": "0.1",
+  "version": "0.11",
   "languages":[
     {
     "name":"Slovenščina",
-    "iso3166":"si"
+    "iso3166":"si",
+    "start":"Začni",
+    "main_language":"Glavni jezik",
+    "additional_languages":"Dodatni jeziki"
     }
   ]
 }
