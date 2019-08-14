@@ -1,8 +1,9 @@
 {
   "app": "Shapes",
-  "version": "0.1", 
+  "version": "0.2", 
   "shapes": {
-    "shapes2D" : "Liki",
+    "shapes2d" : "Liki",
+    "sides" : "strani",
     "triangle3sides" : "Enakostranični trikotnik",
     "triangle2sides" : "Enakokraki trikotnik",
     "triangle90" : "Pravokotni trikotnik",
@@ -12,11 +13,14 @@
     "parallelogram" : "Paralelogram",
     "trapezium" : "Trapez",
     "kite" : "Deltoid",
-    "shapes3D" : "Telesa",
+    "shapes3d" : "Telesa",
+    "prisms" : "Prizme",
     "cube" : "Kocka",
     "cuboid" : "Kvader",
+    "pyramids" : "Piramide",
     "pyramid3" : "Trikotna piramida",
-    "pyramid4" : "Štirikotna piramida"
+    "pyramid4" : "Štirikotna piramida",
+    "history" : "Zgodovina"
   },
   "ui" : {
     "settings": "Nastavitve",
