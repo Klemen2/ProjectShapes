@@ -1,16 +1,17 @@
 {
   "app": "Shapes",
   "version": "0.1",
-  "1": "#D9FFDB",
-  "2": "#D9E8FF",
-  "color" : {
-    "0": "#D9FFDB",
-    "1": "#D9E8FF"
-  },
-  "data": {
-    "2d" : [
+  "color" : [
+    "#D9FFDB",
+    "#D9E8FF"
+  ],
+  "data": [
+    {
+      "id"="shapes2D",
+      "color-id" = "0",
+      "data" : [
       {
-        "id" : "triangle",
+        "id" : "triangle3sides",
         "data": "3,1;-o=2d"
       },
       {
@@ -46,9 +47,12 @@
         "data": "0,1;-1,0;0,-2;1,0;-o=2d"
       },
      ],
-     "3d" : [
+    },{
+      "id"="shapes3D",
+      "color-id" = "0",
+     "data" : [
       {
-        "id": "square",
+        "id": "cube",
         "data": ",,;1,,;,,1;1,,1;,1,;1,1,;,1,1;1,1,1;-o=cub"
       },
       {
@@ -63,6 +67,6 @@
         "id": "pyramid4",
         "data": "4,1;-o=pir"
       },
-    ]
-  }
+    ]}
+  ]
  }
