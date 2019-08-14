@@ -41,7 +41,7 @@
   },
   "exercise" :{
     "calculate" : "Izračunaj",
-    "and" : "in"
+    "and" : "in",
     "calculate_side_1":"stranico {1}",
     "calculate_side_2":"stranici {1} in {2}",
     "calculate_side_3":"stranice {1}, {2} in {3}",
