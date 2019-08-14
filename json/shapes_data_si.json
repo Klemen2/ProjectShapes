@@ -20,7 +20,7 @@
   "pyramids" : "Piramide",
   "pyramid3" : "Trikotna piramida",
   "pyramid4" : "Štirikotna piramida",
-  "history" : "Zgodovina"
+  "history" : "Zgodovina",
 
   "settings": "Nastavitve",
   "shapes" : "Liki in telesa",
@@ -40,7 +40,7 @@
   "shape_2d_create_success" : "Lik je bil uspešno ustvarjen. Koda: {code}",
   "shape_3d_create_success" : "Telo je bilo uspešno ustvareno. Koda: {code}",
   "shape_2d_create_fail" : "Napaka pri ustvarjanju lika. Koda: {code}",
-  "shape_3d_create_fail" : "Napaka pri ustvarjanu telesa. Koda: {code}"
+  "shape_3d_create_fail" : "Napaka pri ustvarjanu telesa. Koda: {code}",
 
   "calculate" : "Izračunaj",
   "and" : "in",
@@ -54,5 +54,5 @@
   "calculate_volume":"volumen {type}",
   "calculate_circumference":"obseg {type}",
   "calculate_radius":"polmer {type}",
-  "calculate_diameter":"premer {type}",
+  "calculate_diameter":"premer {type}"
 }
