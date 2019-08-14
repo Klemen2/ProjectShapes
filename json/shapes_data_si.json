@@ -1,7 +1,7 @@
 {
   "app": "Shapes",
   "version": "0.1", 
-  "shapes": [
+  "shapes": {
     "shapes2D" : "Liki",
     "triangle3sides" : "Enakostranični trikotnik",
     "triangle2sides" : "Enakokraki trikotnik",
@@ -17,8 +17,8 @@
     "cuboid" : "Kvader",
     "pyramid3" : "Trikotna piramida",
     "pyramid4" : "Štirikotna piramida"
-  ],
-  "ui" : [
+  },
+  "ui" : {
     "settings": "Nastavitve",
     "shapes" : "Liki in telesa",
     "save" : "Shrani",
@@ -38,8 +38,8 @@
     "shape_3d_create_success" : "Telo je bilo uspešno ustvareno. Koda: {code}",
     "shape_2d_create_fail" : "Napaka pri ustvarjanju lika. Koda: {code}",
     "shape_3d_create_fail" : "Napaka pri ustvarjanu telesa. Koda: {code}"
-  ],
-  "exercise" :[
+  },
+  "exercise" :{
     "calculate" : "Izračunaj",
     "and" : "in"
     "calculate_side_1":"stranico {1}",
@@ -53,5 +53,5 @@
     "calculate_circumference":"obseg {type}",
     "calculate_radius":"polmer {type}",
     "calculate_diameter":"premer {type}",
-  ]
+  }
 }
