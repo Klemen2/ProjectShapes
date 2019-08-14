@@ -7,8 +7,8 @@
   ],
   "data": [
     {
-      "id"="shapes2D",
-      "color-id" = "0",
+      "id":"shapes2D",
+      "color-id" : "0",
       "data" : [
       {
         "id" : "triangle3sides",
@@ -48,8 +48,8 @@
       },
      ],
     },{
-      "id"="shapes3D",
-      "color-id" = "0",
+      "id":"shapes3D",
+      "color-id": "0",
      "data" : [
       {
         "id": "cube",
