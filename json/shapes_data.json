@@ -3,11 +3,11 @@
   "version": "0.1",
   "1": "#D9FFDB",
   "2": "#D9E8FF",
-  "color" : [
+  "color" : {
     "0": "#D9FFDB",
     "1": "#D9E8FF"
-  ],
-  "data": [
+  },
+  "data": {
     "2d" : [
       {
         "id" : "triangle",
@@ -64,5 +64,5 @@
         "data": "4,1;-o=pir"
       },
     ]
-    ]
+  }
  }
