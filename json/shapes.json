@@ -3,11 +3,13 @@
   "version": "0.11",
   "languages":[
     {
-    "name":"Slovenščina",
-    "iso3166":"si",
-    "start":"Začni",
-    "main_language":"Glavni jezik",
-    "additional_languages":"Dodatni jeziki"
+      "name":"Slovenščina",
+      "iso3166":"si",
+      "start":"Začni",
+      "language":"Jezik",
+      "additional_languages": "Dodatni jeziki",
+      "error_400": "Napaka 400: Datoteke {file} ni bilo mogoče prenesti, ker ne obstaja na danem naslovu.",
+      "error_404": "Napaka 404: Datoteke {file} ni bilo mogoče prenesti, ker niste povezani na internet."
     }
   ]
 }
