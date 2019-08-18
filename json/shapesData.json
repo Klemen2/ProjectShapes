@@ -28,7 +28,7 @@
     },
     {
       "id": "pyramid4",
-      "data": "4,1;-o=4py"
+      "data": "-x=1;-o=4py"
     },
     {
       "id": "history",
