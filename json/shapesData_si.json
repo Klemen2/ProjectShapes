@@ -31,6 +31,7 @@
 
   "calculate" : "Izračunaj",
   "and" : "in",
+  "on" : "na",
   "calculate_side_1":"stranico {1}",
   "calculate_side_2":"stranici {1} in {2}",
   "calculate_side_3":"stranice {1}, {2} in {3}",
@@ -39,7 +40,5 @@
   "calculate_angle_3":"kote {1}, {2} in {3}",
   "calculate_surface":"površino {type}",
   "calculate_volume":"volumen {type}",
-  "calculate_circumference":"obseg {type}",
-  "calculate_radius":"polmer {type}",
-  "calculate_diameter":"premer {type}"
+  "calculate_height":"višino",
 }
