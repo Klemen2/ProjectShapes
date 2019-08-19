@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.3",
+  "version": "0.34",
   "objects": [
     {
       "id": "shapes3d",
@@ -12,11 +12,11 @@
     },
     {
       "id": "cube",
-      "data": "-x=1;-o=cub"
+      "data": "x=1;s=4;o=0"
     },
     {
       "id": "cuboid",
-      "data": "-x=2;-z=1;-o=cub"
+      "data": "x=2;z=1;o=0"
     },
     {
       "id": "pyramids",
@@ -24,11 +24,11 @@
     },
     {
       "id": "pyramid3",
-      "data": "-x=1;-s=3;-o=pyr"
+      "data": "x=1;s=3;o=1"
     },
     {
       "id": "pyramid4",
-      "data": "-x=1;-s=4;-o=pyr"
+      "data": "x=1;s=4;o=1"
     },
     {
       "id": "history",
