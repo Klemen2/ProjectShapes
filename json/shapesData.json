@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.36",
+  "version": "0.37",
   "objects": [
     {
       "id": "shapes2d",
