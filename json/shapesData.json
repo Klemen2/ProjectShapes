@@ -51,6 +51,11 @@
       "data": "0,1;-1,0;0,-2;1,0;o=2d"
     },
     {
+      "id": "shape2dCustom",
+      "data":"s=3;x=1;o=2d",
+      "changeSides":"true"
+    },
+    {
       "id": "shapes3d",
       "color": "#D9FFDB"
     },
@@ -64,7 +69,12 @@
     },
     {
       "id": "cuboid",
-      "data": "x=2;z=1;o=0"
+      "data": "x=2;z=1;s=4;o=0"
+    },
+    { 
+      "id": "prismCustom",
+      "data": "x=1;s=4;o=0",
+      "changeSides":"true"
     },
     {
       "id": "pyramids",
@@ -77,6 +87,11 @@
     {
       "id": "pyramid4",
       "data": "x=1;s=4;o=1"
+    },
+    { 
+      "id": "pyramidCustom",
+      "data":"x=1;s=3;o=1",
+      "changeSides":"true"
     },
     {
       "id": "history",
