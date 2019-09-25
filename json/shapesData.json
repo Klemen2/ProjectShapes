@@ -98,14 +98,14 @@
     {
       "id": "pyramid4",
       "data": "x=1;s=4;o=1"
-      "changeX":"true";
+      "changeX":"true",
       "changeY":"true"
     },
     { 
       "id": "pyramidCustom",
       "data":"x=1;s=3;o=1",
       "changeSides":"true",
-      "changeX":"true";
+      "changeX":"true",
       "changeY":"true",
       "color":"#ffe5db"
     },
