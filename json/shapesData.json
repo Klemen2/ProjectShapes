@@ -97,7 +97,7 @@
     },
     {
       "id": "pyramid4",
-      "data": "x=1;s=4;o=1"
+      "data": "x=1;s=4;o=1",
       "changeX":"true",
       "changeY":"true"
     },
