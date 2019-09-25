@@ -15,14 +15,6 @@
       "data": "s=3;x=1;o=2d"
     },
     {
-      "id": "triangle2sides",
-      "data": "s=3;x=1;o=2d"
-    },
-    {
-      "id": "triangle90",
-      "data": "s=3;x=1;o=2d"
-    },
-    {
       "id": "4-sides",
       "color": "#D9E8FF"
     },
@@ -33,22 +25,6 @@
     {
       "id": "rectangle",
       "data": "s=4;x=1;z=2;o=2d"
-    },
-    {
-      "id": "rhombus",
-      "data": "s=4;x=1;o=2d"
-    },
-    {
-      "id": "parallelogram",
-      "data": "1,1;-1,1;-1.3,0;0.7,0;o=2d"
-    },
-    {
-      "id": "trapezium",
-      "data": "1,1;-1,1;-1.5,0;1.5,0;o=2d"
-    },
-    {
-      "id": "kite",
-      "data": "0,1;-1,0;0,-2;1,0;o=2d"
     },
     {
       "id": "shape2dCustom",
@@ -69,13 +45,6 @@
       "id": "cube",
       "data": "x=1;s=4;o=0",
       "changeX":"true"
-    },
-    {
-      "id": "cuboid",
-      "data": ",,;2,,;,,1;2,,1;,1,;2,1,;,1,1;2,1,1;o=0",
-      "changeX": "true",
-      "changeY": "true",
-      "changeZ": "true"
     },
     { 
       "id": "prismCustom",
