@@ -12,7 +12,8 @@
     },
     {
       "id": "triangle3sides",
-      "data": "s=3;x=1;o=2d"
+      "data": "s=3;x=1;o=2d",
+      "changeX":"true"
     },
     {
       "id": "4-sides",
@@ -20,11 +21,14 @@
     },
     {
       "id": "square",
-      "data": "s=4;x=1;o=2d"
+      "data": "s=4;x=1;o=2d",
+      "changeX":"true"
     },
     {
       "id": "rectangle",
-      "data": "s=4;x=1;z=2;o=2d"
+      "data": "s=4;x=1;z=2;o=2d",
+      "changeX":"true",
+      "changeZ":"true"
     },
     {
       "id": "shape2dCustom",
