@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.26", 
+  "version": "0.27", 
 
   "shapes2d" : "Liki",
   "sides" : "strani",
@@ -24,4 +24,22 @@
   "pyramid4" : "Štirikotna piramida",
   "pyramidCustom" : "Piramida po meri",
   "history" : "Zgodovina",
+
+  "settings": "Nastavitve",
+  "shapes" : "Liki in telesa",
+  "shapes" : "Telesa",
+  "save" : "Shrani",
+  "measurements" : "Meritve",
+  "open_folder_when_saved": "Odpri mapo ob shranitvi",
+  "console": "Konzola",
+  "size of saved pictures": "Velikost shranjenih slik:",
+  "background_color": "Barva ozadja:",
+  "shapes_color": "Barva lika oz. telesa:",
+  "shapes_color": "Barva telesa:",
+  "UI_header_color" : "Barva UI glava:",
+  "UI_body_color" : "Barva UI telo",
+  "reset" : "Ponastavi",
+  "confirm" : "potrdi",
+  "enter_hex_color": "Vnesi HEX barvo...",
+  "saved_to" : "Shranjeno v:",
 }
