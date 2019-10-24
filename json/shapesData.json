@@ -1,90 +1,102 @@
 {
   "app": "Shapes",
-  "version": "0.39",
-  "objects": [
-    {
-      "id": "shapes2d",
-      "color": "#D9FFDB"
-    },
-    {
-      "id": "3-sides",
-      "color": "#D9E8FF"
-    },
-    {
-      "id": "triangle3sides",
-      "data": "s=3;x=1;o=2d",
-      "changeX":"true"
-    },
-    {
-      "id": "4-sides",
-      "color": "#D9E8FF"
-    },
-    {
-      "id": "square",
-      "data": "s=4;x=1;o=2d",
-      "changeX":"true"
-    },
-    {
-      "id": "rectangle",
-      "data": "s=4;x=1;z=2;o=2d",
-      "changeX":"true",
-      "changeZ":"true"
-    },
-    {
-      "id": "shape2dCustom",
-      "data":"s=3;x=1;o=2d",
-      "changeSides":"true",
-      "changeX":"true",
-      "color":"#ffe5db"
-    },
-    {
-      "id": "shapes3d",
-      "color": "#D9FFDB"
-    },
-    {
-      "id": "prisms",
-      "color": "#D9E8FF"
-    },
-    {
-      "id": "cube",
-      "data": "x=1;s=4;o=0",
-      "changeX":"true"
-    },
-    { 
-      "id": "prismCustom",
-      "data": "x=1;s=4;o=0",
-      "changeSides":"true",
-      "changeX":"true",
-      "changeY":"true",
-      "color":"#ffe5db"
-    },
-    {
-      "id": "pyramids",
-      "color": "#D9E8FF"
-    },
-    {
-      "id": "pyramid3",
-      "data": "x=1;s=3;o=1",
-      "changeX":"true",
-      "changeY":"true"
-    },
-    {
-      "id": "pyramid4",
-      "data": "x=1;s=4;o=1",
-      "changeX":"true",
-      "changeY":"true"
-    },
-    { 
-      "id": "pyramidCustom",
-      "data":"x=1;s=3;o=1",
-      "changeSides":"true",
-      "changeX":"true",
-      "changeY":"true",
-      "color":"#ffe5db"
-    },
-    {
-      "id": "history",
-      "color": "#D9FFDB"
-    }
-  ]
- }
+  "version": "0.54",
+  "_2d": [
+    "title1:shapes2d",
+    "title2:3-sides",
+    "triangle3sides",
+    "title2:4-sides",
+    "square",
+    "rectangle",
+    "custom:shape2dCustom"
+  ],
+  "_3d": [
+    "title1:shapes3d",
+    "title2:prisms",
+    "cube",
+    "custom:prismCustom",
+    "title2:pyramids",
+    "pyramid3",
+    "pyramid4",
+    "custom:pyramidCustom"
+  ],
+  "triangle3sides": {
+    "s": 3,
+    "x": 1,
+    "o": "2d",
+    "changeX": "true",
+    "calculate": [
+      "area",
+      "perimeter",
+      "circumscribed circle",
+      "inscribed circle",
+      "altitude",
+      "geometric center"
+    ]
+  },
+  "square": {
+    "s": 4,
+    "x": 1,
+    "o": "2d",
+    "changeX": "true",
+    "calculate": [
+      "area",
+      "periemter",
+      "circumscribed circle",
+      "inscribed circle",
+      "altitude",
+      "geometric center"
+    ]
+  },
+  "rectangle": {
+    "s": 4,
+    "x": 1,
+    "z": 2,
+    "o": "2d",
+    "changeX": "true",
+    "changeZ": "true"
+  },
+  "shape2dCustom": {
+    "s": 3,
+    "x": 1,
+    "o": "2d",
+    "changeSides": "true",
+    "changeX": "true",
+  },
+  "cube": {
+    "s": 4,
+    "x": 1,
+    "o": 0,
+    "changeX": "true"
+  },
+  "prismCustom": {
+    "s": 4,
+    "x": 1,
+    "o": 0,
+    "changeSides": "true",
+    "changeX": "true",
+    "changeY": "true",
+  },
+  "pyramid3": {
+    "s": 3,
+    "x": 1,
+    "o": 1,
+    "changeX": "true",
+    "changeY": "true"
+  },
+  "pyramid4": {
+    "s": 4,
+    "x": 1,
+    "o": 1,
+    "changeX": "true",
+    "changeY": "true"
+  },
+  "pyramidCustom": {
+    "s": 3,
+    "x": 1,
+    "o": 1,
+    "changeSides": "true",
+    "changeX": "true",
+    "changeY": "true",
+  }
+}
