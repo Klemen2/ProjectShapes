@@ -1,12 +1,26 @@
 {
   "app": "Shapes",
   "version": "0.56",
-  "surface":{
-    "tag":"tag-surface",
-    "formulas":[
+  "draw": [
+    "circumscribed-circle",
+    "inscribed-circle",
+    "altitude",
+    "geometric-center"
+  ],
+  "calculate":[
+    "surface",
+    "perimeter",
+    "circumscribed-circle",
+    "inscribed-circle",
+    "altitude",
+    "geometric-center"
+  ],
+  "surface": {
+    "tag": "tag-surface",
+    "formulas": [
       {
-        "shape":[],
-        "formula":[]
+        "shape": [],
+        "formula": []
       }
     ]
   },
