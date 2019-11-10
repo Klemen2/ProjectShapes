@@ -1,6 +1,15 @@
 {
   "app": "Shapes",
-  "version": "0.54",
+  "version": "0.55",
+  "area":{
+    "tag":"tagArea",
+    "formulas":[
+      {
+        "shape":[],
+        "formula":[]
+      }
+    ]
+  },
   "_2d": [
     "title1:shapes2d",
     "title2:3-sides",
@@ -28,10 +37,10 @@
     "calculate": [
       "area",
       "perimeter",
-      "circumscribed circle",
-      "inscribed circle",
+      "circumscribed-circle",
+      "inscribed-circle",
       "altitude",
-      "geometric center"
+      "geometric-center"
     ]
   },
   "square": {
@@ -41,11 +50,11 @@
     "changeX": "true",
     "calculate": [
       "area",
-      "periemter",
-      "circumscribed circle",
-      "inscribed circle",
+      "perimeter",
+      "circumscribed-circle",
+      "inscribed-circle",
       "altitude",
-      "geometric center"
+      "geometric-center"
     ]
   },
   "rectangle": {

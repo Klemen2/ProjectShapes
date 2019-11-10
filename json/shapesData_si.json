@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.31",
+  "version": "0.32",
 
   "shapes2d": "Liki",
   "3-sides": "3-strani",
@@ -25,6 +25,13 @@
   "pyramid4": "Štirikotna piramida",
   "pyramidCustom": "Piramida po meri",
   "history": "Zgodovina",
+  
+  "area":"Površina",
+  "perimeter":"ss",
+  "circumscribed-circle":"ff",
+  "inscribed-circle":"aa",
+  "altitude":"gg",
+  "geometric-center":"vc",
 
   "settings": "Nastavitve",
   "shapes": "Liki in telesa",
