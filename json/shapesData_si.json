@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.32",
+  "version": "0.33",
 
   "shapes2d": "Liki",
   "3-sides": "3-strani",
@@ -26,12 +26,19 @@
   "pyramidCustom": "Piramida po meri",
   "history": "Zgodovina",
   
-  "area":"Površina",
-  "perimeter":"ss",
-  "circumscribed-circle":"ff",
-  "inscribed-circle":"aa",
-  "altitude":"gg",
-  "geometric-center":"vc",
+  "random":"naključno",
+  "surface":"površina",
+  "tag-surface":"",
+  "perimeter":"obseg",
+  "tag-perimeter":"",
+  "circumscribed-circle":"očrtan krog",
+  "tag-circumscribed-circle":"",
+  "inscribed-circle":"včrtan krog",
+  "tag-inscribed-circle":"",
+  "altitude":"višina",
+  "tag-altitude":"",
+  "geometric-center":"središče",
+  "tag-geometric-center":"",
 
   "settings": "Nastavitve",
   "shapes": "Liki in telesa",

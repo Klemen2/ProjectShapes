@@ -1,8 +1,8 @@
 {
   "app": "Shapes",
   "version": "0.55",
-  "area":{
-    "tag":"tagArea",
+  "surface":{
+    "tag":"tagSurface",
     "formulas":[
       {
         "shape":[],
@@ -35,7 +35,7 @@
     "o": "2d",
     "changeX": "true",
     "calculate": [
-      "area",
+      "surface",
       "perimeter",
       "circumscribed-circle",
       "inscribed-circle",
@@ -49,7 +49,7 @@
     "o": "2d",
     "changeX": "true",
     "calculate": [
-      "area",
+      "surface",
       "perimeter",
       "circumscribed-circle",
       "inscribed-circle",
