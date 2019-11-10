@@ -1,8 +1,8 @@
 {
   "app": "Shapes",
-  "version": "0.55",
+  "version": "0.56",
   "surface":{
-    "tag":"tagSurface",
+    "tag":"tag-surface",
     "formulas":[
       {
         "shape":[],
