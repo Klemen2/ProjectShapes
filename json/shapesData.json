@@ -130,6 +130,7 @@
     "o": 0,
     "changeX": "true",
     "changeY": "true",
+    "changeZ": "true",
     "calculate": [
       "surface",
       "perimeter",
