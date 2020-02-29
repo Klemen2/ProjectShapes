@@ -41,7 +41,7 @@
 
   "surface":"{option} površino {type}",
   "perimeter":"{option} obseg {type}",
-  "side":"{option} dolžino stranice {x}"
+  "side":"{option} dolžino stranice {x}",
   "circumscribed-circle":"{option} očrtan krog {type}",
   "inscribed-circle":"{option} včrtan krog {type}",
   "altitude":"{option} višino {type}",
