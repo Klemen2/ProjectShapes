@@ -39,11 +39,13 @@
 
   "surface":"{option} površino {type}",
   "perimeter":"{option} obseg {type}",
+  "side":"{option} dolžino stranice {x}"
   "circumscribed-circle":"{option} očrtan krog {type}",
   "inscribed-circle":"{option} včrtan krog {type}",
   "altitude":"{option} višino {type}",
   "altitude-x":"{option} višino {type} na stranico {x}",
   "geometric-center":"{option} središče {type}",
+  "volume":"{option} volumen {type}",
 
   "settings": "Nastavitve",
   "shapes": "Liki in telesa",
