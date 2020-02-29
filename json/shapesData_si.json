@@ -3,6 +3,7 @@
   "version": "1.0",
 
   "shapes2d": "Liki",
+  
   "3-sides": "3-strani",
   "triangle3sides": "Enakostranični trikotnik",
   "triangle2sides": "Enakokraki trikotnik",
@@ -15,6 +16,7 @@
   "trapezium": "Trapez",
   "kite": "Deltoid",
   "shape2dCustom": "Lik po meri",
+  
   "shapes3d": "Telesa",
   "prisms": "Prizme",
   "cube": "Kocka",
