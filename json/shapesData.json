@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.57",
+  "version": "0.86",
   "draw": [
     "circumscribed-circle",
     "inscribed-circle",
@@ -13,7 +13,9 @@
     "circumscribed-circle",
     "inscribed-circle",
     "altitude",
-    "geometric-center"
+    "geometric-center",
+    "volume",
+    "side"
   ],
   "surface": {
     "tag": "tag-surface",
@@ -37,6 +39,7 @@
     "title1:shapes3d",
     "title2:prisms",
     "cube",
+    "cuboid",
     "custom:prismCustom",
     "title2:pyramids",
     "pyramid3",
@@ -54,7 +57,8 @@
       "circumscribed-circle",
       "inscribed-circle",
       "altitude",
-      "geometric-center"
+      "geometric-center",
+      "side"
     ]
   },
   "square": {
@@ -68,7 +72,8 @@
       "circumscribed-circle",
       "inscribed-circle",
       "altitude",
-      "geometric-center"
+      "geometric-center",
+      "side"
     ]
   },
   "rectangle": {
@@ -77,7 +82,16 @@
     "z": 2,
     "o": "2d",
     "changeX": "true",
-    "changeZ": "true"
+    "changeZ": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "circumscribed-circle",
+      "inscribed-circle",
+      "altitude",
+      "geometric-center",
+      "side"
+    ]
   },
   "shape2dCustom": {
     "s": 3,
@@ -85,12 +99,45 @@
     "o": "2d",
     "changeSides": "true",
     "changeX": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "circumscribed-circle",
+      "inscribed-circle",
+      "altitude",
+      "geometric-center",
+      "side",
+    ]
   },
   "cube": {
     "s": 4,
     "x": 1,
     "o": 0,
-    "changeX": "true"
+    "changeX": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
+  },
+  "cuboid": {
+    "s": 4,
+    "x": 1,
+    "z": 2,
+    "o": 0,
+    "changeX": "true",
+    "changeY": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
   },
   "prismCustom": {
     "s": 4,
@@ -99,20 +146,44 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
   },
   "pyramid3": {
     "s": 3,
     "x": 1,
     "o": 1,
     "changeX": "true",
-    "changeY": "true"
+    "changeY": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
   },
   "pyramid4": {
     "s": 4,
     "x": 1,
     "o": 1,
     "changeX": "true",
-    "changeY": "true"
+    "changeY": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
   },
   "pyramidCustom": {
     "s": 3,
@@ -121,5 +192,13 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
+    "calculate": [
+      "surface",
+      "perimeter",
+      "geometric-center",
+      "volume",
+      "side",
+      "altitude"
+    ]
   }
 }
