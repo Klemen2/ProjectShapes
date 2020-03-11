@@ -1,13 +1,13 @@
 {
   "app": "Shapes",
-  "version": "0.86",
+  "version": "0.87",
   "draw": [
     "circumscribed-circle",
     "inscribed-circle",
     "altitude",
     "geometric-center"
   ],
-  "calculate":[
+  "calculate": [
     "surface",
     "perimeter",
     "circumscribed-circle",
@@ -17,6 +17,10 @@
     "volume",
     "side"
   ],
+  "x": [
+    "side",
+    "altitude-x"
+  ]
   "surface": {
     "tag": "tag-surface",
     "formulas": [
@@ -125,8 +129,9 @@
   },
   "cuboid": {
     "s": 4,
-    "x": 1,
-    "z": 2,
+    "x": 2,
+    "z": 1,
+    "y": 1,
     "o": 0,
     "changeX": "true",
     "changeY": "true",
@@ -147,6 +152,7 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
+    "changeZ": "true",
     "calculate": [
       "surface",
       "perimeter",
@@ -193,6 +199,7 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
+    "changeZ": "true",
     "calculate": [
       "surface",
       "perimeter",
