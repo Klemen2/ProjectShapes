@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "0.87",
+  "version": "0.86",
   "draw": [
     "circumscribed-circle",
     "inscribed-circle",
@@ -20,16 +20,7 @@
   "x": [
     "side",
     "altitude-x"
-  ]
-  "surface": {
-    "tag": "tag-surface",
-    "formulas": [
-      {
-        "shape": [],
-        "formula": []
-      }
-    ]
-  },
+  ],
   "_2d": [
     "title1:shapes2d",
     "title2:3-sides",
@@ -152,7 +143,6 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
-    "changeZ": "true",
     "calculate": [
       "surface",
       "perimeter",
@@ -199,7 +189,6 @@
     "changeSides": "true",
     "changeX": "true",
     "changeY": "true",
-    "changeZ": "true",
     "calculate": [
       "surface",
       "perimeter",
