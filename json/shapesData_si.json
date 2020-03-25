@@ -1,6 +1,6 @@
 {
   "app": "Shapes",
-  "version": "1.01",
+  "version": "1.0",
 
   "shapes2d": "Liki",
 
@@ -26,14 +26,7 @@
   "draw": "Nariši",
   "random": "naključno",
 
-  "tag-surface": "",
-  "tag-perimeter": "",
-  "tag-circumscribed-circle": "",
-  "tag-inscribed-circle": "",
-  "tag-altitude": "",
-  "tag-geometric-center": "",
-
-  "surface": "{option} površino",
+  "surface": "{option} ploščino",
   "perimeter": "{option} obseg",
   "side": "{option} dolžino stranice {x}",
   "circumscribed-circle": "{option} očrtan krog",
@@ -43,20 +36,57 @@
   "geometric-center": "{option} središče",
   "volume": "{option} volumen",
 
+  "data_x":"Stranica {x}",
+  "data_altitude": "Višina",
+  "data_perimeter":"Obseg",
+  "data_surface":"Ploščina",
+  "data_volume": "Volumen",
+
+  "data": "s podatki",
+  "exercise": "Naloga",
+
   "settings": "Nastavitve",
-  "shapes": "Liki in telesa",
-  "save": "Shrani",
-  "measurements": "Meritve",
   "open_folder_when_saved": "Odpri mapo ob shranitvi",
   "console": "Konzola",
-  "size of saved pictures": "Velikost shranjenih slik:",
+  "dark_mode": "Temni način",
+  "light_mode": "Svetli način",
   "background_color": "Barva ozadja:",
   "shapes_color": "Barva lika oz. telesa:",
   "shapes_outline_color": "Barva obrobe lika oz. telesa",
-  "UI_header_color": "Barva UI glava:",
-  "UI_body_color": "Barva UI telo",
+  "language": "Jezik",
+  
+  "save": "Shrani",
+  "save_qr":"Shrani samo QR kodo",
+  "save_seperate":"Shrani vsak lik/telo posebaj",
+  "save_size":"Naključna velikost",
+  "save_obj":"Naključni liki/telesa",
+  "save_exercise":"Naključne naloge",
+  "save_number":"Število likov/teles:",
+  "enter_number":"Vnesi število...",
+
+  "shapes": "Liki in telesa",
+  "measurements": "Meritve",
+  "exercises": "Naloge",
+  "given_data": "Podani podatki",
+
   "reset": "Ponastavi",
-  "confirm": "potrdi",
+  "confirm": "Potrdi",
   "enter_hex_color": "Vnesi HEX barvo...",
-  "saved_to": "Shranjeno v:"
+  "color_picker": "Barve",
+  "saved_to": "Shranjeno v:",
+  "explanation_measurements": "Ko velikost presega 6 cm bo lik/telo prikazana v razmerju. Osnovno razmerje je odvisno od števila stranic lika/telesa.",
+
+  "error_dl":"Ni bilo mogoče prenesti",
+  "error_404":"Prišlo je do napake v omrežju",
+  "error_pdf":"Priščo je do napake pri kreiranju PDF dokumenta",
+  "error_obj":"Prišlo je do napake pri kreiranju lika/telesa",
+  "error_exercises":"Prišlo je do napake pri kreiranju nalog",
+  "error_givenData":"Prišlo je do napake pri kreiranju danih podatkov",
+
+  "success_dl": "Uspešno prenešeno",
+  "success_pdf":"PDF dokument je bil uspešno ustvrjen",
+  "success_obj":"Objekt je bil uspešno ustvarjen",
+  "success_exercises":"Naloge so bile uspešno generirane",
+  "success_givenData":"Dani podatki so bili uspešno generrani"
+
 }
