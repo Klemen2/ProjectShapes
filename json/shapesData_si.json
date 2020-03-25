@@ -41,7 +41,8 @@
   "data_perimeter":"Obseg",
   "data_surface":"Ploščina",
   "data_volume": "Volumen",
-
+  "data_sides": "Stranice",
+  
   "data": "s podatki",
   "exercise": "Naloga",
 
